@@ -1,5 +1,7 @@
 <?php global $Wcms ?>
 <!DOCTYPE html>
+<?php echo contact_form(); ?>
+
 <?php
     if(defined('VERSION') && !defined('version'))
     	define('version', VERSION);
